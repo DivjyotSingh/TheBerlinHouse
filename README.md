@@ -21,6 +21,9 @@
  #### This project has been built using Html , Css and Vanilla Javascript. In our Ecommerce Store, we provide the users with the functionality of loging into the Berlin House, Followed by checking out all the products and adding the ones they would like to buy in a stylized Cart, where they can also add, remove , or update the count of items they would like to purchase from the store. Go Ahead and Explore The Berlin House 🍺
  <br>
 
+ ## Setup
+In order to take down The Berlin House on your Local Systems, all you have to do is fork this project, clone it on your systems, copy the path of the index.html file and paste it on which ever browser you love working on. Happy Coding 🚀🚀
+
 ## Contributors ✨
 
 The wonderful developers who worked hard enough to create this beautiful Berlin House. Cheers 🍺
