@@ -274,7 +274,7 @@ class UI {
       } else {
         button.addEventListener("click", (event) => {
           // disable button
-          event.target.innerText = "In Bag";
+          event.target.innerText = "In Cart";
           event.target.disabled = true;
           // add to cart
           let cartItem = { ...Storage.getProduct(id), amount: 1 };
@@ -309,7 +309,7 @@ class UI {
             <div>
               <h4>${item.title}</h4>
               <h5>$${item.price}</h5>
-              <span class="remove-item" data-id=${item.id}>remove</span>
+              <span class="remove-item" data-id=${item.id}>Remove</span>
             </div>
             <!-- item functionality -->
             <div>
@@ -359,7 +359,7 @@ class UI {
         buttons.forEach((button) => {
           if (parseInt(button.dataset.id) === id) {
             button.disabled = false;
-            button.innerHTML = `<i class="fas fa-shopping-cart"></i>add to bag`;
+            button.innerHTML = `<i class="fas fa-shopping-cart">add to cart</i>`;
           }
         });
       } else if (event.target.classList.contains("fa-chevron-up")) {
@@ -390,7 +390,7 @@ class UI {
           buttons.forEach((button) => {
             if (parseInt(button.dataset.id) === id) {
               button.disabled = false;
-              button.innerHTML = `<i class="fas fa-shopping-cart"></i>add to bag`;
+              button.innerHTML = `<i class="fas fa-shopping-cart">add to cart</i>`;
             }
           });
         }
@@ -406,7 +406,7 @@ class UI {
     const buttons = [...document.querySelectorAll(".bag-btn")];
     buttons.forEach((button) => {
       button.disabled = false;
-      button.innerHTML = `<i class="fas fa-shopping-cart"></i>add to bag`;
+      button.innerHTML = `<i class="fas fa-shopping-cart">add to cart</i>`;
     });
     while (cartContent.children.length > 0) {
       cartContent.removeChild(cartContent.children[0]);
