@@ -6,9 +6,9 @@
 ## Website: [TheBerlinHouse](https://divjyotsingh.github.io/TheBerlinHouse/index.html)
 <br>
 
-<img height=300px src="./images/ss-login3.jpg">
-<img height=300px src="./images/ss-home.jpg">
-<img height=300px src="./images/ss-home3.jpg">
+<img height=350px src="./images/ss-login3.jpg">
+<img height=350px src="./images/ss-home.jpg">
+<img height=350px src="./images/ss-home3.jpg">
 
 </div>
 <br>
@@ -22,7 +22,7 @@
  <br>
 
  ## Setup
-In order to take down The Berlin House on your Local Systems, all you have to do is fork this project, clone it on your systems, copy the path of the index.html file and paste it on which ever browser you love working on. Happy Coding 🚀🚀
+In order to take down The Berlin House on your Local Systems, all you have to do is fork this project, clone it on your systems, copy the path of the index.html file and paste it on which ever browser you love working on. <br>Happy Coding 🚀🚀
 
 ## Contributors ✨
 
