@@ -29,7 +29,7 @@ h3 {
 }
 h4 {
   font-family: "Lato", sans-serif;
-  color: #57D2B4;
+  color: #57d2b4;
   font-weight: bold;
   font-size: 20px;
 }
@@ -95,7 +95,7 @@ h4 {
 
 .brand {
   font-family: "Bree Serif", serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: black;
   /* background-color: #8744ff; */
   padding: 0 1rem;
@@ -346,4 +346,18 @@ h4 {
   background-color: var(--secondaryColor);
   text-align: center;
   font-weight: lighter;
+}
+@media screen and (max-width: 768px) {
+  .nav-link {
+    font-size: 1rem;
+  }
+  .brand {
+    font-size: 0.9rem;
+  }
+  .banner-title {
+    font-size: 31px;
+  }
+  .footer-text {
+    font-size: 15px;
+  }
 }
