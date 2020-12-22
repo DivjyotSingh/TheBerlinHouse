@@ -134,7 +134,7 @@ h4 {
   padding: 2rem;
 }
 .banner-title {
-  font-size: 3.4rem;
+  font-size: 35px;
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
   margin-bottom: 3rem;
@@ -155,6 +155,11 @@ h4 {
 .banner-btn:hover {
   background: transparent;
   color: var(--primaryColor);
+}
+
+.anchor {
+  text-decoration: none;
+  color: black;
 }
 /* --------------- End of Header ---------------- */
 
@@ -257,7 +262,7 @@ h4 {
 
 /* --------------- Products ---------------- */
 
-.products {
+#products {
   padding: 4rem 0;
 }
 .section-title h2 {
