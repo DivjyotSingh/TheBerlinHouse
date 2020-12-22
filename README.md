@@ -6,10 +6,17 @@
 ## Website: [TheBerlinHouse](https://divjyotsingh.github.io/TheBerlinHouse/index.html)
 <br>
 
-<img height=350px src="./images/ss-login3.jpg">
-<img height=350px src="./images/ss-home.jpg">
-<img height=350px src="./images/ss-home3.jpg">
+### Have a look at the Desktop and Mobile version of The Berlin House 
+<br>
 
+<img height=300px width=520px src="./images/ss-login3.jpg">
+<img height=300px src="./images/mob-log.jpeg">
+
+<img height=300px width=520px src="./images/ss-home.jpg">
+<img height=300px src="./images/mob-home.jpeg">
+
+<img height=300px width=520px src="./images/ss-home3.jpg">
+<img height=300px src="./images/mob-footer.jpeg">
 </div>
 <br>
 <div align="center">
