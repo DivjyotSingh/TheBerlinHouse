@@ -118,7 +118,7 @@ h4 {
   transition: transform 250ms cubic-bezier(0.55, 0.55, 0.675, 0.19);
 }
 /* --------------- End of Navbar ---------------- */
-/* --------------- Hero ---------------- */
+/* --------------- Header ---------------- */
 .hero {
   min-height: calc(100vh - 60px);
   background: url("https://i.pinimg.com/originals/9c/09/d5/9c09d50fdbd4ad715b1abe5e3d1731d1.jpg")
@@ -156,7 +156,7 @@ h4 {
   background: transparent;
   color: var(--primaryColor);
 }
-/* --------------- End of Hero ---------------- */
+/* --------------- End of Header ---------------- */
 
 /* --------------- Cart ---------------- */
 .cart-overlay {
@@ -341,6 +341,4 @@ h4 {
   background-color: var(--secondaryColor);
   text-align: center;
   font-weight: lighter;
-}
-}
 }
